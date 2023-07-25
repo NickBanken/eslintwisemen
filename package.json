@@ -1,10 +1,18 @@
 {
-  "name": "@appwise/eslint-config-vue",
-  "version": "0.0.42",
-  "description": "Eslint config",
+  "name": "@appwise/vue-eslint-config",
+  "version": "0.0.1",
+  "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]() [![npm version](https://img.shields.io/npm/v/@appwise/eslint-config-vue.svg?style=flat)](https://www.npmjs.com/package/@appwise/eslint-config-vue) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)",
   "main": "index.js",
-  "author": "",
+  "author": "Wisemen",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickBanken/eslintwisemen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NickBanken/eslintwisemen/issues"
+  },
+  "homepage": "https://github.com/NickBanken/eslintwisemen#readme",
   "dependencies": {
     "@vue/eslint-config-typescript": "11.0.2",
     "eslint-config-prettier": "^8.8.0",
