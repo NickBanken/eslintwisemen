@@ -327,7 +327,12 @@ module.exports = {
       [
         "computed",
         "ref",
-        "defineEmits"
+        "reactive",
+        "defineEmits",
+        "defineSlots",
+        "defineModel",
+        "defineProps",
+        "defineExpose",
       ],
     ],
 
