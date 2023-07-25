@@ -364,5 +364,31 @@ module.exports = {
     "antfu/top-level-function": "off",
     "vue/no-extra-parens": "off",
     "nonblock-statement-body-position": "off",
+
+    "check-file/filename-naming-convention": [
+      "error",
+      {
+        "**/*.{vue}": "PASCAL_CASE",
+        "**/*.{js,ts}": "CAMEL_CASE"
+      },
+      {
+        "ignoreMiddleExtensions": true
+      }
+    ],
+
+    "check-file/folder-naming-convention": [
+      "error",
+      {
+        "src/**/": "KEBAB_CASE"
+      }
+    ],
+
+    "vue/component-name-in-template-casing": [
+      "error",
+      "PascalCase",
+      {
+        "registeredComponentsOnly": true
+      }
+    ],
   }
 }
