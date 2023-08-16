@@ -1,5 +1,5 @@
 {
-  "name": "@appwise/vue-eslint-config",
+  "name": "@appwise/eslint-config-vue",
   "version": "0.0.1",
   "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]() [![npm version](https://img.shields.io/npm/v/@appwise/eslint-config-vue.svg?style=flat)](https://www.npmjs.com/package/@appwise/eslint-config-vue) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)",
   "main": "index.js",
